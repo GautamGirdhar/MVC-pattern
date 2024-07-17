@@ -6,7 +6,7 @@ let database;
 
 async function connectToDatabase() {
   const client = await MongoClient.connect(
-    'mongodb+srv://girdhargautam6:G%40ut%40m%4010122004@cluster0.i41grdl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+    'mongodb+srv://girdhargautam6:@cluster0.i41grdl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
   );
   database = client.db('auth-blog');
 }
